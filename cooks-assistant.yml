@@ -1,5 +1,4 @@
 type: Quest
 quest: Cook's Assistant
-requirements:
 messages:
   - I heard the chef in Lumbridge is in a bit of a pickle.
