@@ -28,10 +28,10 @@ jobs:
         run: |
           tag=$(gh release list --json createdAt --jq '.[] | select(.isLatest)|.name')
           echo "Tag: $tag"
-          echo "Editing release"
-          gh release edit "$tag" -t "$tag" --target Latest
-          echo "Creating release"
-          gh release create Latest \
-            --title "Latest" \
-            --notes "Release created from tag ${{ github.ref }}" \
-            merged.yml # Upload the artifact during creation
+          # echo "Editing release"
+          # gh release edit Latest --tag "$tag"
+          # echo "Creating release"
+          # gh release create Latest \
+          #   --title "Latest" \
+          #   --notes "Release created from tag ${{ github.ref }}" \
+          #   merged.yml # Upload the artifact during creation
