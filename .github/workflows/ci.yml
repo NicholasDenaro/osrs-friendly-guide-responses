@@ -27,7 +27,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           calculatedSha=$(git rev-parse --short ${{ github.sha }})
-          gh release delete Latest
+          # gh release delete Latest
           echo "Creating release"
           gh release create $calculatedSha \
             --title "$calculatedSha" \
