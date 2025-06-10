@@ -26,12 +26,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          tag=$(gh release list --json name,isLatest,createdAt --jq '.[] | select(.isLatest)|.name')
-          echo "Tag: $tag"
+          # tag=$(gh release list --json name,isLatest,createdAt --jq '.[] | select(.isLatest)|.name')
+          # echo "Tag: $tag"
           # echo "Editing release"
           # gh release edit Latest --tag "$tag"
-          # echo "Creating release"
-          # gh release create Latest \
-          #   --title "${{ github.ref }}" \
-          #   --notes "Release created from tag ${{ github.ref }}" \
-          #   merged.yml # Upload the artifact during creation
+          echo "Creating release"
+          gh release create Latest \
+            --title "${{ github.ref }}" \
+            --notes "Release created from tag ${{ github.ref }}" \
+            merged.yml # Upload the artifact during creation
