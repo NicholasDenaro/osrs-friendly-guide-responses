@@ -30,4 +30,4 @@ jobs:
             --notes "Release created from tag ${{ github.ref }}" \
             merged.yml # Upload the artifact during creation
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
