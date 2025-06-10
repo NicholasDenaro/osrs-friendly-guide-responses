@@ -22,4 +22,12 @@ jobs:
             cat $line >> merged.yml
           done
           cat merged.yml
-
+      - name: Create Release and Upload Asset with gh cli
+        run: |
+          # Create the release
+          gh release create ${{ github.ref }} \
+            --title "Latest" \
+            --notes "Release created from tag ${{ github.ref }}" \
+            merged.yml # Upload the artifact during creation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
