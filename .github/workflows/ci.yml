@@ -27,7 +27,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           tag=$(gh release list --json createdAt --jq '.[0].tagName')
-          gh release edit $tag -t "$tag" --target Latest
+          echo "Tag: $tag"
+          echo "Editing release"
+          gh release edit "$tag" -t "$tag" --target Latest
+          echo "Creating release"
           gh release create Latest \
             --title "Latest" \
             --notes "Release created from tag ${{ github.ref }}" \
