@@ -13,4 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: List files in the repository
-        run: find . -name '*.yml' -not -path "./.github/*"
+        run: find . -name '*.yml' -not -path "./.github/*" > ./filenames.txt
+      - name: Merge yml files
+        run: |
+          cat filenames.txt | while read line 
+          do
+            echo "---" >> merged.yml
+            cat $line >> merged.yml
+          done
+          cat merged.yml
+
