@@ -1,0 +1,14 @@
+type: Money
+requirements:
+  - type: NotIronMan
+  - type: Skill
+    name: Smithing
+    level: 35
+    levelMax: 99
+  - type: Quest
+    name: Dwarf Cannon
+    minimum: in progress
+messages:
+  - You can craft cannonballs for a profit.
+  - Just buy steel bars from the Grand Exchange and then smith them using the Edgeville furnace.
+  - You can sell them back to the Grand Exchange.
