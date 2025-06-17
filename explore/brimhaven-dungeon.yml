@@ -7,7 +7,7 @@ requirements:
   - type: Music
     track: High Seas
   - type: Skill
-    skill: woodcutting
+    name: woodcutting
     level: 10
 messages:
   - There is a dungeon on the island of Brimhaven.
