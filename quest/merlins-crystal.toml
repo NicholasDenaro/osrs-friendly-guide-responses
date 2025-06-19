@@ -1,0 +1,10 @@
+type = "Quest"
+quest = "Merlin's Crystal"
+messages = [
+  "Camelot has a wizard"
+]
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 20
