@@ -18,9 +18,9 @@ jobs:
         run: |
           cat filenames.txt | while read line 
           do
-            echo "" > merged.toml
+            echo "" >> merged.toml
             echo "---" >> merged.toml
-            echo "" > merged.toml
+            echo "" >> merged.toml
             cat $line >> merged.toml
           done
           cat merged.toml
