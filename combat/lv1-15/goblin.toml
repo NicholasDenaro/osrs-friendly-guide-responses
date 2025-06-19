@@ -1,0 +1,12 @@
+type = "Combat"
+messages = [
+  "Goblins are a good place to start.",
+  "You can find a group of them in an abandoned house, just east of the Lumbridge bridge.",
+  "Don't forget to bring some food and your combat gear."
+]
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 3
+levelMax = 10

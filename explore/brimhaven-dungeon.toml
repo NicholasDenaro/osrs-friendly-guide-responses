@@ -1,0 +1,24 @@
+type = "Explore"
+messages = [
+  "There is a dungeon on the island of Brimhaven.",
+  "There is a man at the entrance standing guard and to enter you must pay a fee of 875 gp.",
+  "Bring an axe so you can get past the large roots that grow down there.",
+  "You can find strong monsters down there. Be careful."
+]
+
+[[requirements]]
+type = "Members"
+
+[[requirements]]
+type = "Music"
+track = "7th Realm"
+negate = true
+
+[[requirements]]
+type = "Music"
+track = "High Seas"
+
+[[requirements]]
+type = "Skill"
+name = "woodcutting"
+level = 10

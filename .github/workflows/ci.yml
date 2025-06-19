@@ -13,15 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: List files in the repository
-        run: find . -name '*.yml' -not -path "./.github/*" > ./filenames.txt
-      - name: Merge yml files
+        run: find . -name '*.toml' -not -path "./.github/*" > ./filenames.txt
+      - name: Merge toml files
         run: |
           cat filenames.txt | while read line 
-          do
-            echo "---" >> merged.yml
-            cat $line >> merged.yml
           done
-          cat merged.yml
+            echo "\n---\n" >> merged.toml
+            cat $line >> merged.toml
+          done
+          cat merged.toml
       - name: Create Release and Upload Asset with gh cli
         env:
           GH_TOKEN: ${{ github.token }}
@@ -32,8 +32,8 @@ jobs:
           gh release create $calculatedSha \
             --title "$calculatedSha" \
             --notes "Release created from tag ${{ github.ref }}" \
-            merged.yml # Upload the artifact during creation
+            merged.toml # Upload the artifact during creation
           gh release create Latest \
             --title "${{ github.ref }}" \
             --notes "Release created from tag ${{ github.ref }}" \
-            merged.yml # Upload the artifact during creation
+            merged.toml # Upload the artifact during creation
