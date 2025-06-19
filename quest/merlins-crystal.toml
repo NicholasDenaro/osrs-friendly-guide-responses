@@ -1,10 +1,20 @@
 type = "Quest"
 quest = "Merlin's Crystal"
-messages = [
-  "Camelot has a wizard"
-]
+
+[[messages]]
+text = "There's a bit of a spectacle in Camelot at the moment."
+
+[[messages]]
+text = "Their wizard is currently trapped in a crystal."
+
+[[messages]]
+text = "I think King Arthur is looking for someone to help free him."
 
 [[requirements]]
 type = "Skill"
 name = "Combat"
 level = 20
+
+[[requirements]]
+type = "Music"
+track = "Overture"

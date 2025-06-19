@@ -1,9 +1,13 @@
 type = "Combat"
-messages = [
-  "Goblins are a good place to start.",
-  "You can find a group of them in an abandoned house, just east of the Lumbridge bridge.",
-  "Don't forget to bring some food and your combat gear."
-]
+
+[[messages]]
+text = "Goblins are a good place to start."
+
+[[messages]]
+text = "You can find a group of them in an abandoned house, just east of the Lumbridge bridge."
+
+[[messages]]
+text = "Don't forget to bring some food and your combat gear."
 
 [[requirements]]
 type = "Skill"

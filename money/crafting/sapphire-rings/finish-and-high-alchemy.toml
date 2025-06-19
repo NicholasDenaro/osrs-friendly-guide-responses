@@ -1,9 +1,13 @@
 type = "Money"
-messages = [
-  "You can probably craft sapphire rings for a profit.",
-  "You can buy gold bars and cut sapphires and then craft them using the Edgeville furnace.",
-  "Once you craft them, cast the high alchemy spell on them. You can do it on their bank notes."
-]
+
+[[messages]]
+text = "You can probably craft sapphire rings for a profit."
+
+[[messages]]
+text = "You can buy gold bars and cut sapphires and then craft them using the Edgeville furnace."
+
+[[messages]]
+text = "Once you craft them, cast the high alchemy spell on them. You can do it on their bank notes."
 
 [[requirements]]
 type = "Skill"

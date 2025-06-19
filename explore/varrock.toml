@@ -1,11 +1,19 @@
 type = "Explore"
-messages = [
-  "You can find the Kingdom of Varrock to the North.",
-  "There is an abundance of things to do while in Varrock.",
-  "You can find some shops there to purchase equipment and supplies.",
-  "Don't forget to check out the Grand Exchange while you're there.",
-  "The Cook's Guild is located just west of Varrock and the Champions' Guild just south."
-]
+
+[[messages]]
+text = "You can find the Kingdom of Varrock to the North."
+
+[[messages]]
+text = "There is an abundance of things to do while in Varrock."
+
+[[messages]]
+text = "You can find some shops there to purchase equipment and supplies."
+
+[[messages]]
+text = "Don't forget to check out the Grand Exchange while you're there."
+
+[[messages]]
+text = "The Cook's Guild is located just west of Varrock and the Champions' Guild just south."
 
 [[requirements]]
 type = "Music"

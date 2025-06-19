@@ -1,9 +1,13 @@
 type = "Money"
-messages = [
-  "You can probably craft sapphire rings for a profit.",
-  "Just buy gold bars and cut sapphires from the Grand Exchange and then craft them using the Edgeville furnace.",
-  "You could make even more money by casting High Alchemy if you were to get your magic skill up to level 55."
-]
+
+[[messages]]
+text = "You can probably craft sapphire rings for a profit."
+
+[[messages]]
+text = "Just buy gold bars and cut sapphires from the Grand Exchange and then craft them using the Edgeville furnace."
+
+[[messages]]
+text = "You could make even more money by casting High Alchemy if you were to get your magic skill up to level 55."
 
 [[requirements]]
 type = "NotIronMan"

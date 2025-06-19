@@ -1,9 +1,13 @@
 type = "Money"
-messages = [
-  "You can craft cannonballs for a profit.",
-  "Just buy steel bars from the Grand Exchange and then smith them using the Edgeville furnace.",
-  "You can sell them back to the Grand Exchange."
-]
+
+[[messages]]
+text = "You can craft cannonballs for a profit."
+
+[[messages]]
+text = "Just buy steel bars from the Grand Exchange and then smith them using the Edgeville furnace."
+
+[[messages]]
+text = "You can sell them back to the Grand Exchange."
 
 [[requirements]]
 type = "NotIronMan"

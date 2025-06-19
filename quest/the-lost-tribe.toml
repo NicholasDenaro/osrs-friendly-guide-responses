@@ -1,9 +1,11 @@
 type = "Quest"
 quest = "The Lost Tribe"
-messages = [
-  "I heard rumors there was something going on below Lumbridge Castle.",
-  "The duke is sure to know more about this. Why not speak with him?"
-]
+
+[[messages]]
+text = "I heard rumors there was something going on below Lumbridge Castle."
+
+[[messages]]
+text = "The duke is sure to know more about this. Why not speak with him?"
 
 [[requirements]]
 type = "Members"

@@ -1,10 +1,16 @@
 type = "Item"
 itemType = "Weapon"
-messages = [
-  "Whips are a great weapon.",
-  { text = "You can get one from the Grand Exchange or from an Abyssal Demon if you have the slayer level.", if = "not ironman" },
-  { text = "You can get one from an Abyssal Demon.", if = "ironman" }
-]
+
+[[messages]]
+text = "Whips are a great weapon."
+
+[[messages]]
+text = "You can get one from the Grand Exchange or from an Abyssal Demon if you have the slayer level."
+if = "not ironman"
+
+[[messages]]
+text = "You can get one from an Abyssal Demon."
+if = "ironman"
 
 [[requirements]]
 type = "Members"

@@ -1,9 +1,11 @@
 type = "Item"
 itemType = "Weapon"
-messages = [
-  "There's a sword shop in Varrock.",
-  "I would recommend a shortsword. They attack quickly and deal moderate damage."
-]
+
+[[messages]]
+text = "There's a sword shop in Varrock."
+
+[[messages]]
+text = "I would recommend a shortsword. They attack quickly and deal moderate damage."
 
 [[requirements]]
 type = "Skill"

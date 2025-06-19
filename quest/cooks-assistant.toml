@@ -1,5 +1,5 @@
 type = "Quest"
 quest = "Cook's Assistant"
-messages = [
-  "I heard the chef in Lumbridge is in a bit of a pickle. Something about needing ingredients?"
-]
+
+[[messages]]
+text = "I heard the chef in Lumbridge is in a bit of a pickle. Something about needing ingredients?"

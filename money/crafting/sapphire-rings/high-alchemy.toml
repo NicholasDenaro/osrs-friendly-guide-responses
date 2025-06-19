@@ -1,9 +1,13 @@
 type = "Money"
-messages = [
-  "You can probably high alchemy sapphire rings for a profit.",
-  "Just buy the sapphire rings and required runes from the Grand Exchange.",
-  "Cast the high alchemy spell on them. You can do it on their bank notes."
-]
+
+[[messages]]
+text = "You can probably high alchemy sapphire rings for a profit."
+
+[[messages]]
+text = "Just buy the sapphire rings and required runes from the Grand Exchange."
+
+[[messages]]
+text = "Cast the high alchemy spell on them. You can do it on their bank notes."
 
 [[requirements]]
 type = "Skill"
