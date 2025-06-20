@@ -1,0 +1,19 @@
+type = "Explore"
+
+[[messages]]
+text = "You can find a haunted house to the north of Draynor Village."
+
+[[messages]]
+text = "People are telling stories of ghosts, chickens, and vampires."
+
+[[messages]]
+text = "There must be some strong magic in the area. The trees move and people say they've been attacked by them."
+
+[[requirements]]
+type = "Music"
+track = "Start" # Have been to Draynor Village
+
+[[requirements]]
+type = "Music"
+track = "Spooky"
+negate = true
