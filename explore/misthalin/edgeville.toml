@@ -1,0 +1,22 @@
+type = "Explore"
+
+[[messages]]
+text = "Edgeville is a village to the north of Barbarian Village."
+
+[[messages]]
+text = "There is a furnace very close to the bank so it is a popular location for smithing."
+
+[[messages]]
+text = "In some of the decrepit buildings there's a hatch that leads to a dungeon."
+
+[[messages]]
+text = "You can also find a magical lever there. Pulling it can send you to another location."
+
+[[requirements]]
+type = "Music"
+track = "Barbarianism" # Have been to Barbarian Village
+
+[[requirements]]
+type = "Music"
+track = "Forever"
+negate = true

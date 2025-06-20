@@ -1,0 +1,16 @@
+type = "Explore"
+
+[[messages]]
+text = "There is a small village to the west of Lumbridge called Draynor Village."
+
+[[messages]]
+text = "They have a bank, a small market, and more notably some popular woodcutting trees and fishing spots."
+
+[[messages]]
+text = "If you want to train your agility you can go train with their rooftop course."
+if = "member"
+
+[[requirements]]
+type = "Music"
+track = "Start"
+negate = true

@@ -1,0 +1,16 @@
+type = "Explore"
+
+[[messages]]
+text = "There are a group of wizards south of Draynor Village."
+
+[[messages]]
+text = "They have a horrible creature locked up there."
+
+[[requirements]]
+type = "Music"
+track = "Start" # Have been to Draynor Village
+
+[[requirements]]
+type = "Music"
+track = "Vision"
+negate = true

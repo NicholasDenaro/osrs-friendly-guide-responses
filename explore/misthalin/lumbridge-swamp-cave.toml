@@ -1,0 +1,15 @@
+type = "Explore"
+
+[[messages]]
+text = "There's a whole underground area below the swamp."
+
+[[messages]]
+text = "You can get there with some rope."
+
+[[messages]]
+text = "Don't forget to bring a light source and a tinderbox."
+
+[[requirements]]
+type = "Music"
+track = "Cave of the Goblins"
+negate = true

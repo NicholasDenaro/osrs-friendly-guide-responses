@@ -1,0 +1,22 @@
+type = "Explore"
+
+[[messages]]
+text = "Go to Edgeville. In some of the decrepit buildings there's a hatch that leads to a dungeon."
+
+[[messages]]
+text = "There are a bunch of undead creatures there. As well as some hobgoblins and hill giants."
+
+[[messages]]
+text = "Adventurers quite like fighting the hill giants."
+
+[[messages]]
+text = "When you're there, look for a brass key. It can unlock a shortcut to the hill giants."
+
+[[requirements]]
+type = "Music"
+track = "Forever" # Have been to Barbarian Village
+
+[[requirements]]
+type = "Music" # There is no new music track, so find another thing. Maybe check player bank for the brass key?
+track = "Forever"
+negate = true

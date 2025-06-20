@@ -1,0 +1,19 @@
+type = "Explore"
+
+[[messages]]
+text = "The River Lum is a holy river."
+
+[[messages]]
+text = "Its power seems to be waning recently."
+
+[[messages]]
+text = "There is a holy temple north east of Varrock."
+
+[[requirements]]
+type = "Music"
+track = "Adventure" # Varrock unlocked
+
+[[requirements]]
+type = "Music"
+track = "Parade"
+negate = true
