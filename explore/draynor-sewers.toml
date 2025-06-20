@@ -1,0 +1,16 @@
+type = "Explore"
+
+[[messages]]
+text = "There's a sewer access in Draynor Village."
+
+[[messages]]
+text = "A group of zombies is trapped down there."
+
+[[requirements]]
+type = "Music"
+track = "Start" # Have been to Draynor Village
+
+[[requirements]]
+type = "Music"
+track = "Down Below"
+negate = true
