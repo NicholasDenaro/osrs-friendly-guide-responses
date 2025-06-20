@@ -1,0 +1,16 @@
+type = "Explore"
+
+[[messages]]
+text = "There's a village of barbarians west of Varrock."
+
+[[messages]]
+text = "You think they would cause problems, but they're less rowdy than you'd think."
+
+[[requirements]]
+type = "Music"
+track = "Adventure" # Have been to Varrock
+
+[[requirements]]
+type = "Music"
+track = "Barbarianism"
+negate = true
