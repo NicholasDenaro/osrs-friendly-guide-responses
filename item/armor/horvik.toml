@@ -1,0 +1,17 @@
+type = "Item"
+itemType = "Armor"
+
+[[messages]]
+text = "Horvik has an armor shop in Varrock that sells chestplates and chainbodies."
+
+[[messages]]
+text = "Chainmails and chestplates each have their own defensive strengths."
+
+[[messages]]
+text = "Chainmails are strong against blunt weapons, while chestplates are strong against stab and slash weapons."
+
+[[requirements]]
+type = "Skill"
+name = "Defense"
+level = 1
+levelMax = 29

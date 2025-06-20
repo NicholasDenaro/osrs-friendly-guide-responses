@@ -1,0 +1,14 @@
+type = "Item"
+itemType = "Weapon"
+
+[[messages]]
+text = "There's a staff shop in Varrock."
+
+[[messages]]
+text = "Elemental staves boost your magic damage and some enemies are strong or weak to certain elements."
+
+[[requirements]]
+type = "Skill"
+name = "Magic"
+level = 1
+levelMax = 30
