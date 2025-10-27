@@ -1,0 +1,16 @@
+type = "Combat"
+
+[[messages]]
+text = "Cows are good beginners."
+
+[[messages]]
+text = "There are a couple of cow pastures between Lumbridge and Varrock."
+
+[[messages]]
+text = "Don't forget to bring some food and your combat gear."
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 3
+levelMax = 10

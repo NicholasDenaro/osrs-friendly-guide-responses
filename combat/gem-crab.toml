@@ -1,0 +1,9 @@
+type = "Combat"
+
+[[messages]]
+text = "The Gem Crab in Varlamore is a great place to train your combat with little focus."
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 10

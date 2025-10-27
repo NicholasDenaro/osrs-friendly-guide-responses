@@ -1,0 +1,17 @@
+type = "Combat"
+
+[[messages]]
+text = "Hill Giants have a larger amount of health."
+
+[[messages]]
+text = "You can find them in the Edgeville Dungeon."
+
+[[messages]]
+text = "If you have a brass key, bring that for faster access."
+
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 30
+levelMax = 50

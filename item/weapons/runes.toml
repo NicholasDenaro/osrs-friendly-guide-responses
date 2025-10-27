@@ -1,0 +1,17 @@
+type = "Item"
+itemType = "Weapon"
+
+[[messages]]
+text = "There's a rune shop in Varrock as well as in Port Sarim."
+
+[[messages]]
+text = "Runes are needed to cast magic."
+
+[[messages]]
+text = "Some enemies are strong or weak against specific elemental magics."
+
+[[requirements]]
+type = "Skill"
+name = "Magic"
+level = 1
+levelMax = 10

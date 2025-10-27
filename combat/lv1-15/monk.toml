@@ -1,0 +1,13 @@
+type = "Combat"
+
+[[messages]]
+text = "Monks are good to train against."
+
+[[messages]]
+text = "They have a decent amount of health and if you talk with them they can heal you."
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 5
+levelMax = 15

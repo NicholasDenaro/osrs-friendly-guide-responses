@@ -11,4 +11,4 @@ text = "I would recommend a shortsword. They attack quickly and deal moderate da
 type = "Skill"
 name = "Attack"
 level = 1
-levelMax = 30
+levelMax = 39
