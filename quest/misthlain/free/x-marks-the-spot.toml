@@ -1,0 +1,11 @@
+type = "Quest"
+quest = "X Marks the Spot"
+
+[[messages]]
+text = "Veos is looking for an adventurer who knows the area."
+
+[[messages]]
+text = "Rumor has it that he found a map to some burried treasure."
+
+[[messages]]
+text = "I'm sure there's a good reward for one who helps."

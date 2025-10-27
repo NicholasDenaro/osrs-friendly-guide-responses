@@ -1,0 +1,26 @@
+type = "Explore"
+
+[[messages]]
+text = "There are some ruins that lie between the Ice Mountain and the Goblin Village."
+
+[[messages]]
+text = "Within those ruins is said to be an altar that allows adventurers to transform essence into mind runes."
+
+[[messages]]
+text = "Find a mind talisman and use it on the ruins to enter. You can use the talisman to help you locate the ruins."
+
+
+[[requirements]]
+type = "Music"
+track = "Miracle Dance"
+negate = true
+
+[[requirements]]
+type = "Quest"
+name = "Rune Mysteries"
+status = "complete"
+
+[[requirements]]
+type = "Skill"
+name = "Runecraft"
+level = 2

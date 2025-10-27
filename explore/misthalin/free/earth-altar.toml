@@ -1,0 +1,23 @@
+type = "Explore"
+
+[[messages]]
+text = "West of Varrock, you can find an altar which allows you to turn essence into earth runes."
+
+[[messages]]
+text = "Find an earth talisman and use it on the ruins."
+
+
+[[requirements]]
+type = "Music"
+track = "Down to Earth"
+negate = true
+
+[[requirements]]
+type = "Quest"
+name = "Rune Mysteries"
+status = "complete"
+
+[[requirements]]
+type = "Skill"
+name = "Runecraft"
+level = 9

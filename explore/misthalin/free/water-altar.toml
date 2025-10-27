@@ -1,0 +1,23 @@
+type = "Explore"
+
+[[messages]]
+text = "There are ruins in the Lumbridge swamp that are said to transport you to an altar of water."
+
+[[messages]]
+text = "Find a water talisman and use it on the ruins."
+
+
+[[requirements]]
+type = "Music"
+track = "Zealot"
+negate = true
+
+[[requirements]]
+type = "Quest"
+name = "Rune Mysteries"
+status = "complete"
+
+[[requirements]]
+type = "Skill"
+name = "Runecraft"
+level = 9

@@ -1,0 +1,13 @@
+type = "Quest"
+quest = "Dragon Slayer I"
+
+[[messages]]
+text = "Speak to guildmaster in the Champion's Guild."
+
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 45
+
+# Needs a requirement for quest points

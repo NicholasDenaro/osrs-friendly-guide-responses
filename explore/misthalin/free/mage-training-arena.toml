@@ -1,0 +1,18 @@
+type = "Explore"
+
+[[messages]]
+text = "At the very north-east tip of the dessert is a training arena for mages."
+
+[[messages]]
+text = "The wizards in the wizard tower created this arena to help adventurers practice magic."
+
+
+[[requirements]]
+type = "Music"
+track = "Shine"
+negate = true
+
+[[requirements]]
+type = "Skill"
+name = "Magic"
+level = 7

@@ -1,0 +1,14 @@
+type = "Quest"
+quest = "Vampyre Slayer"
+
+[[messages]]
+text = "Morgan is worried about the vampyre that sleeps under Draynor Manor. Maybe you can help him."
+
+[[requirements]]
+type = "Music"
+track = "Start" # Have been to Draynor Village
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 20
