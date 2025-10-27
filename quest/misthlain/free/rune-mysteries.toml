@@ -1,0 +1,8 @@
+type = "Quest"
+quest = "Rune Mysteries"
+
+[[messages]]
+text = "Duke Horacio found a strange talisman. He wants to uncover its secrets."
+
+[[messages]]
+text = "Speak with him on the second floor of the castle."

@@ -1,0 +1,15 @@
+type = "Quest"
+quest = "Shield of Arrav"
+
+[[messages]]
+text = "Reldo needs and adventurer's help to restore a broken shield."
+
+[[messages]]
+text = "You can find him within the Varrock Castle."
+
+[[messages]]
+text = "I heared there are some rival gangs involved so grab a buddy to lend a hand."
+
+[[requirements]]
+type = "Music"
+track = "Adventure" # Have been to Varrock

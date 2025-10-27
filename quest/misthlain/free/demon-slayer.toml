@@ -1,0 +1,15 @@
+type = "Quest"
+quest = "Demon Slayer"
+
+[[messages]]
+text = "There is a fortune teller in Varrock. She is seeking a strong adventurer who can help her with a problem."
+
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 15
+
+[[requirements]]
+type = "Music"
+track = "Adventure"

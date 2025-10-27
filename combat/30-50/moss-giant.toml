@@ -1,0 +1,14 @@
+type = "Combat"
+
+[[messages]]
+text = "Moss Giants have a larger amount of health."
+
+[[messages]]
+text = "You can find them in the Varrock Sewers or on Crandor."
+
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 40
+levelMax = 60

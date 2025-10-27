@@ -1,0 +1,23 @@
+type = "Explore"
+
+[[messages]]
+text = "There is a magical altar that allows adventurers to craft body runes."
+
+[[messages]]
+text = "Find a body talisman and use it on the ruins."
+
+
+[[requirements]]
+type = "Music"
+track = "Heart and Mind"
+negate = true
+
+[[requirements]]
+type = "Quest"
+name = "Rune Mysteries"
+status = "complete"
+
+[[requirements]]
+type = "Skill"
+name = "Runecraft"
+level = 20

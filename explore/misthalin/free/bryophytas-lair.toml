@@ -1,0 +1,38 @@
+type = "Explore"
+
+[[messages]]
+text = "Deep within the Varrock sewers is a moss giantess. She is a more powerful moss giant."
+
+[[messages]]
+text = "When making your way through the sewers you will need to cut through some webbing, so bring something to slash them."
+
+[[messages]]
+text = "To enter her lair you will need to find a mossy key which can be obtained by killing a moss giant."
+
+[[messages]]
+text = "When entering her lair it is important to come prepared and to enter while protecting from magic."
+
+[[messages]]
+text = "During the fight she will summon growthlings which can only be harmed by attacking them with an axe."
+
+[[messages]]
+text = "Bryophta can poison you with her attacks so be sure to go prepared."
+if = "member"
+
+[[messages]]
+text = "Bryophyta is very weak against fire. Keep your distance from her during the fight."
+
+
+[[requirements]]
+type = "Music"
+track = "Adventure" # Varrock unlocked
+
+[[requirements]]
+type = "Skill"
+name = "Prayer"
+level = 37
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 45

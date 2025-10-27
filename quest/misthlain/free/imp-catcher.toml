@@ -1,0 +1,10 @@
+type = "Quest"
+quest = "Imp Catcher"
+
+[[messages]]
+text = "Mizgog, in the wizard's tower, is having a rough time with some imps. Why not hear him out?"
+
+
+[[requirements]]
+type = "Music"
+track = "Vision" # Have been to the Wizard's Tower

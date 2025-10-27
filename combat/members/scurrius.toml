@@ -1,0 +1,27 @@
+type = "Combat"
+
+[[messages]]
+text = "Why not try fighting Scurrius, the Rat King?"
+
+[[messages]]
+text = "Scurrius' Lair is in the Varrock Sewers."
+
+[[messages]]
+text = "If you have not challeneged Scurrius before, you should come prepared."
+
+[[messages]]
+text = "He has attacks for all 3 styles which are best prayed against. Scurrius will telegraph his attacks so you can switch prayers to block all damage."
+
+[[messages]]
+text = "He has some great drops. If you get his spine make sure to use it to make a weapon which Scurrius will be weak against."
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 60
+levelMax = 100
+
+[[requirements]]
+type = "Skill"
+name = "Prayer"
+level = 43

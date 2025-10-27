@@ -1,0 +1,5 @@
+type = "Quest"
+quest = "Misthalin Mystery"
+
+[[messages]]
+text = "There is a woman in the south-eastern part of the Lumbridge Swamp who is begging adventurers for help."

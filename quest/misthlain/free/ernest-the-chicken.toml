@@ -1,0 +1,17 @@
+type = "Quest"
+quest = "Ernest the Chicken"
+
+[[messages]]
+text = "There's something funny going on at the Draynor Manor. Talk to Veronica to lend her a hand."
+
+[[requirements]]
+type = "Music"
+track = "Adventure"
+
+[[requirements]]
+type = "Music"
+track = "Start" # Have been to Draynor Village
+
+[[requirements]]
+type = "Music"
+track = "Spooky" # Have been to Draynor Manor

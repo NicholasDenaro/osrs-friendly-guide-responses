@@ -1,0 +1,17 @@
+type = "Item"
+itemType = "Weapon"
+
+[[messages]]
+text = "There's a staff shop in Varrock."
+
+[[messages]]
+text = "Elemental staves can be used in the place of runes of the same type."
+
+[[messages]]
+text = "They boost your magic damage and some enemies are strong or weak against specific elemental magics."
+
+[[requirements]]
+type = "Skill"
+name = "Magic"
+level = 1
+levelMax = 30

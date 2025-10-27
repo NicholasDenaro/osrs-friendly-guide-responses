@@ -1,0 +1,16 @@
+type = "Explore"
+
+[[messages]]
+text = "West of Varrock there is a hub for trading."
+
+[[messages]]
+text = "Adventurers will gather here to buy and sell items they have collected on their adventures."
+
+[[requirements]]
+type = "Music"
+track = "Adventure"
+
+[[requirements]]
+type = "Music"
+track = "The Trade Parade"
+negate = true

@@ -1,0 +1,13 @@
+type = "Combat"
+
+[[messages]]
+text = "You can try fighting barbarians."
+
+[[messages]]
+text = "There is a group of them in a village west of Varrock."
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 20
+levelMax = 30

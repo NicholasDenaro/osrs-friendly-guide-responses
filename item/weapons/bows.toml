@@ -1,0 +1,14 @@
+type = "Item"
+itemType = "Weapon"
+
+[[messages]]
+text = "There's an archery shop in Varrock."
+
+[[messages]]
+text = "I would recommend a shortbow. They attack quickly and deal moderate damage."
+
+[[requirements]]
+type = "Skill"
+name = "Ranged"
+level = 1
+levelMax = 39

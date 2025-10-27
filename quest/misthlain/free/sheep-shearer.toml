@@ -1,0 +1,8 @@
+type = "Quest"
+quest = "Sheep Shearer"
+
+[[messages]]
+text = "Fred the Farmer will employ adventurers looking for a bit of coin."
+
+[[messages]]
+text = "You can find him in his farm north-west of the castle."

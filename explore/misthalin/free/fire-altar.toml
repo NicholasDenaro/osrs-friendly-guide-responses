@@ -1,0 +1,23 @@
+type = "Explore"
+
+[[messages]]
+text = "South of the Al Kharid mines are some ruins that has an altar which can be used to imbue fire into essence."
+
+[[messages]]
+text = "Find a fire talisman and use it on the ruins."
+
+
+[[requirements]]
+type = "Music"
+track = "Quest"
+negate = true
+
+[[requirements]]
+type = "Quest"
+name = "Rune Mysteries"
+status = "complete"
+
+[[requirements]]
+type = "Skill"
+name = "Runecraft"
+level = 14

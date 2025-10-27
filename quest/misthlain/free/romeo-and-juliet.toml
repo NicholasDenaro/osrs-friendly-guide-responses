@@ -1,0 +1,10 @@
+type = "Quest"
+quest = "Romeo & Juliet"
+
+[[messages]]
+text = "Romeo is wandering the Varrock square asking people for help. Humor him."
+
+
+[[requirements]]
+type = "Music"
+track = "Adventure" # Have been to Varrock

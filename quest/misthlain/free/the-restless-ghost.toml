@@ -1,0 +1,5 @@
+type = "Quest"
+quest = "The Restless Ghost"
+
+[[messages]]
+text = "Father Aereck in the Chapel here is looking for an adventurer to help rid him of a ghost."

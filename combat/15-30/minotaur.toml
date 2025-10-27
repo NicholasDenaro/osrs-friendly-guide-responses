@@ -1,0 +1,13 @@
+type = "Combat"
+
+[[messages]]
+text = "Minotaurs have a lot of good drops, so they're nice to fight."
+
+[[messages]]
+text = "You can find them in the Security Stronghold which is in a dungeon below Barbarian."
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 15
+levelMax = 30

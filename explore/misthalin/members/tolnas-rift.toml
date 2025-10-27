@@ -1,0 +1,28 @@
+type = "Explore"
+
+[[messages]]
+text = "There is a rift cut through the land east of Varrock."
+
+[[messages]]
+text = "Someone is in need of rescuing."
+
+[[messages]]
+text = "Seek out the rift and assist the poor soul."
+
+[[messages]]
+text = "Be cautious there is evil within the rift."
+
+[[requirements]]
+type = "Music"
+track = "Adventure" # Varrock unlocked
+
+
+[[requirements]]
+type = "Music"
+track = "Wrath and Ruin"
+negate = true
+
+[[requirements]]
+type = "Skill"
+name = "Combat"
+level = 30
